@@ -1,0 +1,1119 @@
+{
+  "nodes": {
+    "Group Input": {
+      "location": [
+        -1500.0,
+        0.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Input",
+      "input_order": [],
+      "inputs": [],
+      "output_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_0"
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Rope Radius",
+          "identifier": "Socket_1",
+          "default": 0.05000000074505806
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Strand Radius",
+          "identifier": "Socket_2",
+          "default": 0.04500000178813934
+        },
+        {
+          "type": "NodeSocketInt",
+          "name": "Strand Count",
+          "identifier": "Socket_3",
+          "default": 3
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Twists per Meter",
+          "identifier": "Socket_4",
+          "default": 6.0
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Resample Length",
+          "identifier": "Socket_5",
+          "default": 0.009999999776482582
+        },
+        {
+          "type": "NodeSocketInt",
+          "name": "Profile Resolution",
+          "identifier": "Socket_6",
+          "default": 8
+        },
+        {
+          "type": "NodeSocketMaterial",
+          "name": "Material",
+          "identifier": "Socket_7"
+        }
+      ],
+      "outputs": [
+        null,
+        0.05000000074505806,
+        0.04500000178813934,
+        3,
+        6.0,
+        0.009999999776482582,
+        8,
+        null,
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "NodeGroupInput",
+      "label": "",
+      "location_absolute": [
+        -1500.0,
+        0.0
+      ]
+    },
+    "Group Output": {
+      "location": [
+        1700.0,
+        0.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Output",
+      "input_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_8"
+        }
+      ],
+      "inputs": [
+        null,
+        null
+      ],
+      "output_order": [],
+      "outputs": [],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "is_active_output": true,
+      "type": "NodeGroupOutput",
+      "label": "",
+      "location_absolute": [
+        1700.0,
+        0.0
+      ]
+    },
+    "Resample Curve": {
+      "location": [
+        -1200.0,
+        100.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Resample Curve",
+      "inputs": [
+        null,
+        true,
+        "Length",
+        10,
+        0.10000000149011612
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "keep_last_segment": true,
+      "type": "GeometryNodeResampleCurve",
+      "label": "",
+      "location_absolute": [
+        -1200.0,
+        100.0
+      ]
+    },
+    "Set Curve Normal": {
+      "location": [
+        -1000.0,
+        100.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Set Curve Normal",
+      "inputs": [
+        null,
+        true,
+        "Minimum Twist",
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeSetCurveNormal",
+      "label": "",
+      "location_absolute": [
+        -1000.0,
+        100.0
+      ]
+    },
+    "Duplicate Elements": {
+      "location": [
+        -800.0,
+        100.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Duplicate Elements",
+      "inputs": [
+        null,
+        true,
+        1
+      ],
+      "outputs": [
+        null,
+        0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "domain": "SPLINE",
+      "type": "GeometryNodeDuplicateElements",
+      "label": "",
+      "location_absolute": [
+        -800.0,
+        100.0
+      ]
+    },
+    "Spline Parameter": {
+      "location": [
+        -800.0,
+        -250.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Spline Parameter",
+      "inputs": [],
+      "outputs": [
+        0.0,
+        0.0,
+        0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeSplineParameter",
+      "label": "",
+      "location_absolute": [
+        -800.0,
+        -250.0
+      ]
+    },
+    "Curve Tangent": {
+      "location": [
+        -800.0,
+        -400.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Curve Tangent",
+      "inputs": [],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeInputTangent",
+      "label": "",
+      "location_absolute": [
+        -800.0,
+        -400.0
+      ]
+    },
+    "Normal": {
+      "location": [
+        -800.0,
+        -550.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Normal",
+      "inputs": [],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "legacy_corner_normals": false,
+      "type": "GeometryNodeInputNormal",
+      "label": "",
+      "location_absolute": [
+        -800.0,
+        -550.0
+      ]
+    },
+    "Math": {
+      "location": [
+        -550.0,
+        -150.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math",
+      "inputs": [
+        0.5,
+        6.2831854820251465,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "MULTIPLY",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -550.0,
+        -150.0
+      ]
+    },
+    "Math.001": {
+      "location": [
+        -370.0,
+        -150.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math.001",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "MULTIPLY",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -370.0,
+        -150.0
+      ]
+    },
+    "Math.002": {
+      "location": [
+        -550.0,
+        -380.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math.002",
+      "inputs": [
+        6.2831854820251465,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "DIVIDE",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -550.0,
+        -380.0
+      ]
+    },
+    "Math.003": {
+      "location": [
+        -370.0,
+        -380.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math.003",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "MULTIPLY",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -370.0,
+        -380.0
+      ]
+    },
+    "Math.004": {
+      "location": [
+        -170.0,
+        -250.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math.004",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "ADD",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -170.0,
+        -250.0
+      ]
+    },
+    "Vector Rotate": {
+      "location": [
+        60.0,
+        -150.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Vector Rotate",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        0.0,
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "rotation_type": "AXIS_ANGLE",
+      "invert": false,
+      "type": "ShaderNodeVectorRotate",
+      "label": "",
+      "location_absolute": [
+        60.0,
+        -150.0
+      ]
+    },
+    "Vector Math": {
+      "location": [
+        280.0,
+        -150.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Vector Math",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        1.0
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "SCALE",
+      "type": "ShaderNodeVectorMath",
+      "label": "",
+      "location_absolute": [
+        280.0,
+        -150.0
+      ]
+    },
+    "Set Position": {
+      "location": [
+        340.0,
+        100.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Set Position",
+      "inputs": [
+        null,
+        true,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeSetPosition",
+      "label": "",
+      "location_absolute": [
+        340.0,
+        100.0
+      ]
+    },
+    "Curve Circle": {
+      "location": [
+        340.0,
+        400.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Curve Circle",
+      "inputs": [
+        32,
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        1.0
+      ],
+      "outputs": [
+        null,
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "mode": "RADIUS",
+      "type": "GeometryNodeCurvePrimitiveCircle",
+      "label": "",
+      "location_absolute": [
+        340.0,
+        400.0
+      ]
+    },
+    "Curve to Mesh": {
+      "location": [
+        620.0,
+        150.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Curve to Mesh",
+      "inputs": [
+        null,
+        null,
+        1.0,
+        true
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeCurveToMesh",
+      "label": "",
+      "location_absolute": [
+        620.0,
+        150.0
+      ]
+    },
+    "Set Shade Smooth": {
+      "location": [
+        900.0,
+        150.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Set Shade Smooth",
+      "inputs": [
+        null,
+        true,
+        true
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "domain": "FACE",
+      "type": "GeometryNodeSetShadeSmooth",
+      "label": "",
+      "location_absolute": [
+        900.0,
+        150.0
+      ]
+    },
+    "Set Material": {
+      "location": [
+        1180.0,
+        150.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Set Material",
+      "inputs": [
+        null,
+        true,
+        null
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeSetMaterial",
+      "label": "",
+      "location_absolute": [
+        1180.0,
+        150.0
+      ]
+    }
+  },
+  "links": [
+    {
+      "from_node": "Group Input",
+      "to_node": "Resample Curve",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_0",
+      "to_socket": "Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Curve"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Resample Curve",
+      "from_socket": "Resample Length",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_5",
+      "to_socket": "Length",
+      "to_socket_type": "NodeSocketFloatDistance",
+      "to_socket_identifier": "Length"
+    },
+    {
+      "from_node": "Resample Curve",
+      "to_node": "Set Curve Normal",
+      "from_socket": "Curve",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Curve",
+      "to_socket": "Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Curve"
+    },
+    {
+      "from_node": "Set Curve Normal",
+      "to_node": "Duplicate Elements",
+      "from_socket": "Curve",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Curve",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Duplicate Elements",
+      "from_socket": "Strand Count",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_3",
+      "to_socket": "Amount",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Amount"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Math",
+      "from_socket": "Twists per Meter",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_4",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Spline Parameter",
+      "to_node": "Math.001",
+      "from_socket": "Length",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Length",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Math",
+      "to_node": "Math.001",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Math.002",
+      "from_socket": "Strand Count",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_3",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Duplicate Elements",
+      "to_node": "Math.003",
+      "from_socket": "Duplicate Index",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Duplicate Index",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Math.002",
+      "to_node": "Math.003",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Math.001",
+      "to_node": "Math.004",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Math.003",
+      "to_node": "Math.004",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Normal",
+      "to_node": "Vector Rotate",
+      "from_socket": "Normal",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Normal",
+      "to_socket": "Vector",
+      "to_socket_type": "NodeSocketVector",
+      "to_socket_identifier": "Vector"
+    },
+    {
+      "from_node": "Curve Tangent",
+      "to_node": "Vector Rotate",
+      "from_socket": "Tangent",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Tangent",
+      "to_socket": "Axis",
+      "to_socket_type": "NodeSocketVector",
+      "to_socket_identifier": "Axis"
+    },
+    {
+      "from_node": "Math.004",
+      "to_node": "Vector Rotate",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Angle",
+      "to_socket_type": "NodeSocketFloatAngle",
+      "to_socket_identifier": "Angle"
+    },
+    {
+      "from_node": "Vector Rotate",
+      "to_node": "Vector Math",
+      "from_socket": "Vector",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Vector",
+      "to_socket": "Vector",
+      "to_socket_type": "NodeSocketVector",
+      "to_socket_identifier": "Vector"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Vector Math",
+      "from_socket": "Rope Radius",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_1",
+      "to_socket": "Scale",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Scale"
+    },
+    {
+      "from_node": "Duplicate Elements",
+      "to_node": "Set Position",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Vector Math",
+      "to_node": "Set Position",
+      "from_socket": "Vector",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Vector",
+      "to_socket": "Offset",
+      "to_socket_type": "NodeSocketVectorTranslation",
+      "to_socket_identifier": "Offset"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Curve Circle",
+      "from_socket": "Profile Resolution",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_6",
+      "to_socket": "Resolution",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Resolution"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Curve Circle",
+      "from_socket": "Strand Radius",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_2",
+      "to_socket": "Radius",
+      "to_socket_type": "NodeSocketFloatDistance",
+      "to_socket_identifier": "Radius"
+    },
+    {
+      "from_node": "Set Position",
+      "to_node": "Curve to Mesh",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Curve"
+    },
+    {
+      "from_node": "Curve Circle",
+      "to_node": "Curve to Mesh",
+      "from_socket": "Curve",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Curve",
+      "to_socket": "Profile Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Profile Curve"
+    },
+    {
+      "from_node": "Curve to Mesh",
+      "to_node": "Set Shade Smooth",
+      "from_socket": "Mesh",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Mesh",
+      "to_socket": "Mesh",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Set Shade Smooth",
+      "to_node": "Set Material",
+      "from_socket": "Mesh",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Set Material",
+      "from_socket": "Material",
+      "from_socket_type": "NodeSocketMaterial",
+      "from_socket_identifier": "Socket_7",
+      "to_socket": "Material",
+      "to_socket_type": "NodeSocketMaterial",
+      "to_socket_identifier": "Material"
+    },
+    {
+      "from_node": "Set Material",
+      "to_node": "Group Output",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Socket_8"
+    }
+  ],
+  "name": "Rope_GN",
+  "tree_type": "GeometryNodeTree",
+  "modifier_values": {
+    "Socket_1": 0.05000000074505806,
+    "Socket_2": 0.04500000178813934,
+    "Socket_3": 3,
+    "Socket_4": 6.0,
+    "Socket_5": 0.009999999776482582,
+    "Socket_6": 8,
+    "Socket_7": {
+      "__id__": "Material",
+      "name": "RopeMat"
+    }
+  },
+  "blender_version": "5.2.0",
+  "export_name": "Rope"
+}

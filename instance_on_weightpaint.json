@@ -1,0 +1,3166 @@
+{
+  "nodes": {
+    "Group Input": {
+      "location": [
+        -1121.4859619140625,
+        480.49365234375
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Input",
+      "input_order": [],
+      "inputs": [],
+      "output_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_0"
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Density",
+          "identifier": "Socket_2",
+          "default": 10.0
+        },
+        {
+          "type": "NodeSocketFloatFactor",
+          "name": "Density 2",
+          "identifier": "Socket_3",
+          "default": 1.0
+        },
+        {
+          "type": "NodeSocketObject",
+          "name": "Camera",
+          "identifier": "Socket_4"
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Cull Distance",
+          "identifier": "Socket_5",
+          "default": 25.0
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Cull Half-Angle",
+          "identifier": "Socket_6",
+          "default": 35.0
+        }
+      ],
+      "outputs": [
+        null,
+        10.0,
+        1.0,
+        null,
+        0.0,
+        0.0,
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "NodeGroupInput",
+      "label": "",
+      "location_absolute": [
+        -1121.4859619140625,
+        480.49365234375
+      ]
+    },
+    "Group Output": {
+      "location": [
+        136.0612030029297,
+        215.12832641601562
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Output",
+      "input_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_1"
+        }
+      ],
+      "inputs": [
+        null,
+        null
+      ],
+      "output_order": [],
+      "outputs": [],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "is_active_output": true,
+      "type": "NodeGroupOutput",
+      "label": "",
+      "location_absolute": [
+        136.0612030029297,
+        215.12832641601562
+      ]
+    },
+    "Join Geometry": {
+      "location": [
+        -61.128868103027344,
+        415.41046142578125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Join Geometry",
+      "inputs": [
+        null
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeJoinGeometry",
+      "label": "",
+      "location_absolute": [
+        -61.128868103027344,
+        415.41046142578125
+      ]
+    },
+    "Group": {
+      "location": [
+        -688.480712890625,
+        386.7682800292969
+      ],
+      "width": 211.05252075195312,
+      "height": 100.0,
+      "name": "Group",
+      "inputs": [
+        null,
+        1.0,
+        null,
+        0.20000001788139343,
+        0.20000001788139343,
+        20.5,
+        0.09999999403953552,
+        null,
+        0.0,
+        0.0
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "node_tree": {
+        "nodes": {
+          "Instance on Points": {
+            "location": [
+              319.140380859375,
+              5.773796081542969
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Instance on Points",
+            "inputs": [
+              null,
+              true,
+              null,
+              true,
+              0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            ],
+            "outputs": [
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "GeometryNodeInstanceOnPoints",
+            "label": "",
+            "location_absolute": [
+              319.140380859375,
+              5.773796081542969
+            ]
+          },
+          "Collection Info": {
+            "location": [
+              -440.86968994140625,
+              -104.25944519042969
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Collection Info",
+            "inputs": [
+              null,
+              true,
+              true
+            ],
+            "outputs": [
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "transform_space": "ORIGINAL",
+            "type": "GeometryNodeCollectionInfo",
+            "label": "",
+            "location_absolute": [
+              -440.86968994140625,
+              -104.25944519042969
+            ]
+          },
+          "Distribute Points on Faces": {
+            "location": [
+              -71.3248291015625,
+              221.10696411132812
+            ],
+            "width": 170.0,
+            "height": 100.0,
+            "name": "Distribute Points on Faces",
+            "inputs": [
+              null,
+              true,
+              0.09999999403953552,
+              25.0,
+              10.0,
+              1.0,
+              -36
+            ],
+            "outputs": [
+              null,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "distribute_method": "POISSON",
+            "use_legacy_normal": false,
+            "type": "GeometryNodeDistributePointsOnFaces",
+            "label": "",
+            "location_absolute": [
+              -71.3248291015625,
+              221.10696411132812
+            ]
+          },
+          "Vector Math": {
+            "location": [
+              92.98965454101562,
+              -214.28115844726562
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Vector Math",
+            "inputs": [
+              [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SCALE",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              92.98965454101562,
+              -214.28115844726562
+            ]
+          },
+          "Random Value": {
+            "location": [
+              -119.02798461914062,
+              -221.10696411132812
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Random Value",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              0.10000002384185791,
+              0.20000001788139343,
+              0,
+              100,
+              0.5,
+              0,
+              7
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0,
+              0,
+              false
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "data_type": "FLOAT",
+            "type": "FunctionNodeRandomValue",
+            "label": "",
+            "location_absolute": [
+              -119.02798461914062,
+              -221.10696411132812
+            ]
+          },
+          "Group Output": {
+            "location": [
+              561.5089111328125,
+              0.0
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Group Output",
+            "input_order": [
+              {
+                "type": "NodeSocketGeometry",
+                "name": "Instances",
+                "identifier": "Socket_0"
+              }
+            ],
+            "inputs": [
+              null,
+              null
+            ],
+            "output_order": [],
+            "outputs": [],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "is_active_output": true,
+            "type": "NodeGroupOutput",
+            "label": "",
+            "location_absolute": [
+              561.5089111328125,
+              0.0
+            ]
+          },
+          "Group Input": {
+            "location": [
+              -682.91064453125,
+              50.97380828857422
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Group Input",
+            "input_order": [],
+            "inputs": [],
+            "output_order": [
+              {
+                "type": "NodeSocketGeometry",
+                "name": "Mesh",
+                "identifier": "Socket_1"
+              },
+              {
+                "type": "NodeSocketFloatFactor",
+                "name": "Density Factor",
+                "identifier": "Socket_2",
+                "default": 1.0
+              },
+              {
+                "type": "NodeSocketCollection",
+                "name": "Collection",
+                "identifier": "Socket_3"
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Min",
+                "identifier": "Socket_4",
+                "default": 0.10000002384185791
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Max",
+                "identifier": "Socket_5",
+                "default": 0.20000001788139343
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Density Max",
+                "identifier": "Socket_6",
+                "default": 25.0
+              },
+              {
+                "type": "NodeSocketFloatDistance",
+                "name": "Distance Min",
+                "identifier": "Socket_7",
+                "default": 0.09999999403953552
+              },
+              {
+                "type": "NodeSocketObject",
+                "name": "Camera",
+                "identifier": "Socket_8"
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Cull Distance",
+                "identifier": "Socket_9",
+                "default": 25.0
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Cull Half-Angle",
+                "identifier": "Socket_10",
+                "default": 35.0
+              }
+            ],
+            "outputs": [
+              null,
+              1.0,
+              null,
+              0.10000002384185791,
+              0.20000001788139343,
+              25.0,
+              0.09999999403953552,
+              null,
+              0.0,
+              0.0,
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "NodeGroupInput",
+            "label": "",
+            "location_absolute": [
+              -682.91064453125,
+              50.97380828857422
+            ]
+          },
+          "CullObjectInfo": {
+            "location": [
+              -482.91064453125,
+              -349.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullObjectInfo",
+            "inputs": [
+              null,
+              false
+            ],
+            "outputs": [
+              null,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "transform_space": "ORIGINAL",
+            "type": "GeometryNodeObjectInfo",
+            "label": "Camera Info",
+            "location_absolute": [
+              -482.91064453125,
+              -349.02618408203125
+            ]
+          },
+          "CullPosition": {
+            "location": [
+              -482.91064453125,
+              -509.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullPosition",
+            "inputs": [],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "GeometryNodeInputPosition",
+            "label": "",
+            "location_absolute": [
+              -482.91064453125,
+              -509.02618408203125
+            ]
+          },
+          "CullSubtract": {
+            "location": [
+              -262.91064453125,
+              -409.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullSubtract",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SUBTRACT",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -262.91064453125,
+              -409.02618408203125
+            ]
+          },
+          "CullLength": {
+            "location": [
+              -62.91064453125,
+              -409.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullLength",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "LENGTH",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -62.91064453125,
+              -409.02618408203125
+            ]
+          },
+          "CullCompare": {
+            "location": [
+              137.08935546875,
+              -409.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullCompare",
+            "inputs": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "LESS_THAN",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              137.08935546875,
+              -409.02618408203125
+            ]
+          },
+          "CullForwardConst": {
+            "location": [
+              -82.91064453125,
+              -549.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullForwardConst",
+            "inputs": [],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "vector": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "type": "FunctionNodeInputVector",
+            "label": "",
+            "location_absolute": [
+              -82.91064453125,
+              -549.0261840820312
+            ]
+          },
+          "CullRotateFwd": {
+            "location": [
+              117.08935546875,
+              -549.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullRotateFwd",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "FunctionNodeRotateVector",
+            "label": "",
+            "location_absolute": [
+              117.08935546875,
+              -549.0261840820312
+            ]
+          },
+          "CullDot": {
+            "location": [
+              317.08935546875,
+              -549.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullDot",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "DOT_PRODUCT",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              317.08935546875,
+              -549.0261840820312
+            ]
+          },
+          "CullInFront": {
+            "location": [
+              917.08935546875,
+              -749.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullInFront",
+            "inputs": [
+              0.5,
+              0.0,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "GREATER_THAN",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "Cone Test",
+            "location_absolute": [
+              917.08935546875,
+              -749.0261840820312
+            ]
+          },
+          "CullAnd": {
+            "location": [
+              717.08935546875,
+              -449.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullAnd",
+            "inputs": [
+              false,
+              false
+            ],
+            "outputs": [
+              false
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "AND",
+            "type": "FunctionNodeBooleanMath",
+            "label": "",
+            "location_absolute": [
+              717.08935546875,
+              -449.02618408203125
+            ]
+          },
+          "CullForwardOffset": {
+            "location": [
+              -462.91064453125,
+              -629.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullForwardOffset",
+            "inputs": [],
+            "outputs": [
+              10.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "ShaderNodeValue",
+            "label": "",
+            "location_absolute": [
+              -462.91064453125,
+              -629.0261840820312
+            ]
+          },
+          "CullOffsetVec": {
+            "location": [
+              -262.91064453125,
+              -629.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullOffsetVec",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SCALE",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -262.91064453125,
+              -629.0261840820312
+            ]
+          },
+          "CullShiftedSub": {
+            "location": [
+              -62.91064453125,
+              -629.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullShiftedSub",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SUBTRACT",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -62.91064453125,
+              -629.0261840820312
+            ]
+          },
+          "CullCosActual": {
+            "location": [
+              517.08935546875,
+              -749.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullCosActual",
+            "inputs": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "DIVIDE",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              517.08935546875,
+              -749.0261840820312
+            ]
+          },
+          "CullDeg2Rad": {
+            "location": [
+              517.08935546875,
+              -949.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullDeg2Rad",
+            "inputs": [
+              0.5,
+              0.01745329238474369,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "MULTIPLY",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              517.08935546875,
+              -949.0261840820312
+            ]
+          },
+          "CullCosThresh": {
+            "location": [
+              717.08935546875,
+              -949.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullCosThresh",
+            "inputs": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "COSINE",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              717.08935546875,
+              -949.0261840820312
+            ]
+          }
+        },
+        "links": [
+          {
+            "from_node": "Collection Info",
+            "to_node": "Instance on Points",
+            "from_socket": "Instances",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Instances",
+            "to_socket": "Instance",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Instance"
+          },
+          {
+            "from_node": "Distribute Points on Faces",
+            "to_node": "Instance on Points",
+            "from_socket": "Points",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Points",
+            "to_socket": "Points",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Points"
+          },
+          {
+            "from_node": "Vector Math",
+            "to_node": "Instance on Points",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Scale",
+            "to_socket_type": "NodeSocketVectorXYZ",
+            "to_socket_identifier": "Scale"
+          },
+          {
+            "from_node": "Random Value",
+            "to_node": "Vector Math",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value_001",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Mesh",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Socket_1",
+            "to_socket": "Mesh",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Mesh"
+          },
+          {
+            "from_node": "Instance on Points",
+            "to_node": "Group Output",
+            "from_socket": "Instances",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Instances",
+            "to_socket": "Instances",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Socket_0"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Density Factor",
+            "from_socket_type": "NodeSocketFloatFactor",
+            "from_socket_identifier": "Socket_2",
+            "to_socket": "Density Factor",
+            "to_socket_type": "NodeSocketFloatFactor",
+            "to_socket_identifier": "Density Factor"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Collection Info",
+            "from_socket": "Collection",
+            "from_socket_type": "NodeSocketCollection",
+            "from_socket_identifier": "Socket_3",
+            "to_socket": "Collection",
+            "to_socket_type": "NodeSocketCollection",
+            "to_socket_identifier": "Collection"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Random Value",
+            "from_socket": "Min",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_4",
+            "to_socket": "Min",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Min_001"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Random Value",
+            "from_socket": "Max",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_5",
+            "to_socket": "Max",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Max_001"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Density Max",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_6",
+            "to_socket": "Density Max",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Density Max"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Distance Min",
+            "from_socket_type": "NodeSocketFloatDistance",
+            "from_socket_identifier": "Socket_7",
+            "to_socket": "Distance Min",
+            "to_socket_type": "NodeSocketFloatDistance",
+            "to_socket_identifier": "Distance Min"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "CullObjectInfo",
+            "from_socket": "Camera",
+            "from_socket_type": "NodeSocketObject",
+            "from_socket_identifier": "Socket_8",
+            "to_socket": "Object",
+            "to_socket_type": "NodeSocketObject",
+            "to_socket_identifier": "Object"
+          },
+          {
+            "from_node": "CullPosition",
+            "to_node": "CullSubtract",
+            "from_socket": "Position",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Position",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullObjectInfo",
+            "to_node": "CullSubtract",
+            "from_socket": "Location",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Location",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector_001"
+          },
+          {
+            "from_node": "CullLength",
+            "to_node": "CullCompare",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "CullCompare",
+            "from_socket": "Cull Distance",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_9",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value_001"
+          },
+          {
+            "from_node": "CullForwardConst",
+            "to_node": "CullRotateFwd",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullObjectInfo",
+            "to_node": "CullRotateFwd",
+            "from_socket": "Rotation",
+            "from_socket_type": "NodeSocketRotation",
+            "from_socket_identifier": "Rotation",
+            "to_socket": "Rotation",
+            "to_socket_type": "NodeSocketRotation",
+            "to_socket_identifier": "Rotation"
+          },
+          {
+            "from_node": "CullRotateFwd",
+            "to_node": "CullDot",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullSubtract",
+            "to_node": "CullDot",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector_001"
+          },
+          {
+            "from_node": "CullCompare",
+            "to_node": "CullAnd",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Boolean",
+            "to_socket_type": "NodeSocketBool",
+            "to_socket_identifier": "Boolean"
+          },
+          {
+            "from_node": "CullInFront",
+            "to_node": "CullAnd",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Boolean",
+            "to_socket_type": "NodeSocketBool",
+            "to_socket_identifier": "Boolean_001"
+          },
+          {
+            "from_node": "CullAnd",
+            "to_node": "Instance on Points",
+            "from_socket": "Boolean",
+            "from_socket_type": "NodeSocketBool",
+            "from_socket_identifier": "Boolean",
+            "to_socket": "Selection",
+            "to_socket_type": "NodeSocketBool",
+            "to_socket_identifier": "Selection"
+          },
+          {
+            "from_node": "CullRotateFwd",
+            "to_node": "CullOffsetVec",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullForwardOffset",
+            "to_node": "CullOffsetVec",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Scale",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Scale"
+          },
+          {
+            "from_node": "CullSubtract",
+            "to_node": "CullShiftedSub",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullOffsetVec",
+            "to_node": "CullShiftedSub",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector_001"
+          },
+          {
+            "from_node": "CullShiftedSub",
+            "to_node": "CullLength",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullDot",
+            "to_node": "CullCosActual",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullLength",
+            "to_node": "CullCosActual",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value_001"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "CullDeg2Rad",
+            "from_socket": "Cull Half-Angle",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_10",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullDeg2Rad",
+            "to_node": "CullCosThresh",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullCosActual",
+            "to_node": "CullInFront",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullCosThresh",
+            "to_node": "CullInFront",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value_001"
+          }
+        ],
+        "name": "Instance Distribution",
+        "tree_type": "GeometryNodeTree"
+      },
+      "type": "GeometryNodeGroup",
+      "label": "",
+      "location_absolute": [
+        -688.480712890625,
+        386.7682800292969
+      ]
+    },
+    "Group.001": {
+      "location": [
+        -696.9393310546875,
+        59.221561431884766
+      ],
+      "width": 211.05252075195312,
+      "height": 100.0,
+      "name": "Group.001",
+      "inputs": [
+        null,
+        1.0,
+        null,
+        0.5,
+        0.800000011920929,
+        0.800001859664917,
+        0.19999998807907104,
+        null,
+        0.0,
+        0.0
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "node_tree": {
+        "nodes": {
+          "Instance on Points": {
+            "location": [
+              319.140380859375,
+              5.773796081542969
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Instance on Points",
+            "inputs": [
+              null,
+              true,
+              null,
+              true,
+              0,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+              ]
+            ],
+            "outputs": [
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "GeometryNodeInstanceOnPoints",
+            "label": "",
+            "location_absolute": [
+              319.140380859375,
+              5.773796081542969
+            ]
+          },
+          "Collection Info": {
+            "location": [
+              -440.86968994140625,
+              -104.25944519042969
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Collection Info",
+            "inputs": [
+              null,
+              true,
+              true
+            ],
+            "outputs": [
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "transform_space": "ORIGINAL",
+            "type": "GeometryNodeCollectionInfo",
+            "label": "",
+            "location_absolute": [
+              -440.86968994140625,
+              -104.25944519042969
+            ]
+          },
+          "Distribute Points on Faces": {
+            "location": [
+              -71.3248291015625,
+              221.10696411132812
+            ],
+            "width": 170.0,
+            "height": 100.0,
+            "name": "Distribute Points on Faces",
+            "inputs": [
+              null,
+              true,
+              0.09999999403953552,
+              25.0,
+              10.0,
+              1.0,
+              -36
+            ],
+            "outputs": [
+              null,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "distribute_method": "POISSON",
+            "use_legacy_normal": false,
+            "type": "GeometryNodeDistributePointsOnFaces",
+            "label": "",
+            "location_absolute": [
+              -71.3248291015625,
+              221.10696411132812
+            ]
+          },
+          "Vector Math": {
+            "location": [
+              92.98965454101562,
+              -214.28115844726562
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Vector Math",
+            "inputs": [
+              [
+                0.30000001192092896,
+                0.30000001192092896,
+                0.30000001192092896
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SCALE",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              92.98965454101562,
+              -214.28115844726562
+            ]
+          },
+          "Random Value": {
+            "location": [
+              -119.02798461914062,
+              -221.10696411132812
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Random Value",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              0.10000002384185791,
+              0.20000001788139343,
+              0,
+              100,
+              0.5,
+              0,
+              7
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0,
+              0,
+              false
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "data_type": "FLOAT",
+            "type": "FunctionNodeRandomValue",
+            "label": "",
+            "location_absolute": [
+              -119.02798461914062,
+              -221.10696411132812
+            ]
+          },
+          "Group Output": {
+            "location": [
+              561.5089111328125,
+              0.0
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Group Output",
+            "input_order": [
+              {
+                "type": "NodeSocketGeometry",
+                "name": "Instances",
+                "identifier": "Socket_0"
+              }
+            ],
+            "inputs": [
+              null,
+              null
+            ],
+            "output_order": [],
+            "outputs": [],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "is_active_output": true,
+            "type": "NodeGroupOutput",
+            "label": "",
+            "location_absolute": [
+              561.5089111328125,
+              0.0
+            ]
+          },
+          "Group Input": {
+            "location": [
+              -682.91064453125,
+              50.97380828857422
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "Group Input",
+            "input_order": [],
+            "inputs": [],
+            "output_order": [
+              {
+                "type": "NodeSocketGeometry",
+                "name": "Mesh",
+                "identifier": "Socket_1"
+              },
+              {
+                "type": "NodeSocketFloatFactor",
+                "name": "Density Factor",
+                "identifier": "Socket_2",
+                "default": 1.0
+              },
+              {
+                "type": "NodeSocketCollection",
+                "name": "Collection",
+                "identifier": "Socket_3"
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Min",
+                "identifier": "Socket_4",
+                "default": 0.10000002384185791
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Max",
+                "identifier": "Socket_5",
+                "default": 0.20000001788139343
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Density Max",
+                "identifier": "Socket_6",
+                "default": 25.0
+              },
+              {
+                "type": "NodeSocketFloatDistance",
+                "name": "Distance Min",
+                "identifier": "Socket_7",
+                "default": 0.09999999403953552
+              },
+              {
+                "type": "NodeSocketObject",
+                "name": "Camera",
+                "identifier": "Socket_8"
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Cull Distance",
+                "identifier": "Socket_9",
+                "default": 25.0
+              },
+              {
+                "type": "NodeSocketFloat",
+                "name": "Cull Half-Angle",
+                "identifier": "Socket_10",
+                "default": 35.0
+              }
+            ],
+            "outputs": [
+              null,
+              1.0,
+              null,
+              0.10000002384185791,
+              0.20000001788139343,
+              25.0,
+              0.09999999403953552,
+              null,
+              0.0,
+              0.0,
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "NodeGroupInput",
+            "label": "",
+            "location_absolute": [
+              -682.91064453125,
+              50.97380828857422
+            ]
+          },
+          "CullObjectInfo": {
+            "location": [
+              -482.91064453125,
+              -349.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullObjectInfo",
+            "inputs": [
+              null,
+              false
+            ],
+            "outputs": [
+              null,
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              null
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "transform_space": "ORIGINAL",
+            "type": "GeometryNodeObjectInfo",
+            "label": "Camera Info",
+            "location_absolute": [
+              -482.91064453125,
+              -349.02618408203125
+            ]
+          },
+          "CullPosition": {
+            "location": [
+              -482.91064453125,
+              -509.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullPosition",
+            "inputs": [],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "GeometryNodeInputPosition",
+            "label": "",
+            "location_absolute": [
+              -482.91064453125,
+              -509.02618408203125
+            ]
+          },
+          "CullSubtract": {
+            "location": [
+              -262.91064453125,
+              -409.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullSubtract",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SUBTRACT",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -262.91064453125,
+              -409.02618408203125
+            ]
+          },
+          "CullLength": {
+            "location": [
+              -62.91064453125,
+              -409.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullLength",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "LENGTH",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -62.91064453125,
+              -409.02618408203125
+            ]
+          },
+          "CullCompare": {
+            "location": [
+              137.08935546875,
+              -409.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullCompare",
+            "inputs": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "LESS_THAN",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              137.08935546875,
+              -409.02618408203125
+            ]
+          },
+          "CullForwardConst": {
+            "location": [
+              -82.91064453125,
+              -549.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullForwardConst",
+            "inputs": [],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "vector": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "type": "FunctionNodeInputVector",
+            "label": "",
+            "location_absolute": [
+              -82.91064453125,
+              -549.0261840820312
+            ]
+          },
+          "CullRotateFwd": {
+            "location": [
+              117.08935546875,
+              -549.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullRotateFwd",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "FunctionNodeRotateVector",
+            "label": "",
+            "location_absolute": [
+              117.08935546875,
+              -549.0261840820312
+            ]
+          },
+          "CullDot": {
+            "location": [
+              317.08935546875,
+              -549.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullDot",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "DOT_PRODUCT",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              317.08935546875,
+              -549.0261840820312
+            ]
+          },
+          "CullInFront": {
+            "location": [
+              917.08935546875,
+              -749.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullInFront",
+            "inputs": [
+              0.5,
+              0.0,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "GREATER_THAN",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "Cone Test",
+            "location_absolute": [
+              917.08935546875,
+              -749.0261840820312
+            ]
+          },
+          "CullAnd": {
+            "location": [
+              717.08935546875,
+              -449.02618408203125
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullAnd",
+            "inputs": [
+              false,
+              false
+            ],
+            "outputs": [
+              false
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "AND",
+            "type": "FunctionNodeBooleanMath",
+            "label": "",
+            "location_absolute": [
+              717.08935546875,
+              -449.02618408203125
+            ]
+          },
+          "CullForwardOffset": {
+            "location": [
+              -462.91064453125,
+              -629.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullForwardOffset",
+            "inputs": [],
+            "outputs": [
+              10.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "type": "ShaderNodeValue",
+            "label": "",
+            "location_absolute": [
+              -462.91064453125,
+              -629.0261840820312
+            ]
+          },
+          "CullOffsetVec": {
+            "location": [
+              -262.91064453125,
+              -629.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullOffsetVec",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SCALE",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -262.91064453125,
+              -629.0261840820312
+            ]
+          },
+          "CullShiftedSub": {
+            "location": [
+              -62.91064453125,
+              -629.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullShiftedSub",
+            "inputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              1.0
+            ],
+            "outputs": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "SUBTRACT",
+            "type": "ShaderNodeVectorMath",
+            "label": "",
+            "location_absolute": [
+              -62.91064453125,
+              -629.0261840820312
+            ]
+          },
+          "CullCosActual": {
+            "location": [
+              517.08935546875,
+              -749.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullCosActual",
+            "inputs": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "DIVIDE",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              517.08935546875,
+              -749.0261840820312
+            ]
+          },
+          "CullDeg2Rad": {
+            "location": [
+              517.08935546875,
+              -949.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullDeg2Rad",
+            "inputs": [
+              0.5,
+              0.01745329238474369,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "MULTIPLY",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              517.08935546875,
+              -949.0261840820312
+            ]
+          },
+          "CullCosThresh": {
+            "location": [
+              717.08935546875,
+              -949.0261840820312
+            ],
+            "width": 140.0,
+            "height": 100.0,
+            "name": "CullCosThresh",
+            "inputs": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "outputs": [
+              0.0
+            ],
+            "use_custom_color": false,
+            "color": [
+              0.6079999804496765,
+              0.6079999804496765,
+              0.6079999804496765
+            ],
+            "show_options": true,
+            "show_preview": false,
+            "mute": false,
+            "show_texture": false,
+            "operation": "COSINE",
+            "use_clamp": false,
+            "type": "ShaderNodeMath",
+            "label": "",
+            "location_absolute": [
+              717.08935546875,
+              -949.0261840820312
+            ]
+          }
+        },
+        "links": [
+          {
+            "from_node": "Collection Info",
+            "to_node": "Instance on Points",
+            "from_socket": "Instances",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Instances",
+            "to_socket": "Instance",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Instance"
+          },
+          {
+            "from_node": "Distribute Points on Faces",
+            "to_node": "Instance on Points",
+            "from_socket": "Points",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Points",
+            "to_socket": "Points",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Points"
+          },
+          {
+            "from_node": "Vector Math",
+            "to_node": "Instance on Points",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Scale",
+            "to_socket_type": "NodeSocketVectorXYZ",
+            "to_socket_identifier": "Scale"
+          },
+          {
+            "from_node": "Random Value",
+            "to_node": "Vector Math",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value_001",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Mesh",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Socket_1",
+            "to_socket": "Mesh",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Mesh"
+          },
+          {
+            "from_node": "Instance on Points",
+            "to_node": "Group Output",
+            "from_socket": "Instances",
+            "from_socket_type": "NodeSocketGeometry",
+            "from_socket_identifier": "Instances",
+            "to_socket": "Instances",
+            "to_socket_type": "NodeSocketGeometry",
+            "to_socket_identifier": "Socket_0"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Density Factor",
+            "from_socket_type": "NodeSocketFloatFactor",
+            "from_socket_identifier": "Socket_2",
+            "to_socket": "Density Factor",
+            "to_socket_type": "NodeSocketFloatFactor",
+            "to_socket_identifier": "Density Factor"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Collection Info",
+            "from_socket": "Collection",
+            "from_socket_type": "NodeSocketCollection",
+            "from_socket_identifier": "Socket_3",
+            "to_socket": "Collection",
+            "to_socket_type": "NodeSocketCollection",
+            "to_socket_identifier": "Collection"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Random Value",
+            "from_socket": "Min",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_4",
+            "to_socket": "Min",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Min_001"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Random Value",
+            "from_socket": "Max",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_5",
+            "to_socket": "Max",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Max_001"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Density Max",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_6",
+            "to_socket": "Density Max",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Density Max"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "Distribute Points on Faces",
+            "from_socket": "Distance Min",
+            "from_socket_type": "NodeSocketFloatDistance",
+            "from_socket_identifier": "Socket_7",
+            "to_socket": "Distance Min",
+            "to_socket_type": "NodeSocketFloatDistance",
+            "to_socket_identifier": "Distance Min"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "CullObjectInfo",
+            "from_socket": "Camera",
+            "from_socket_type": "NodeSocketObject",
+            "from_socket_identifier": "Socket_8",
+            "to_socket": "Object",
+            "to_socket_type": "NodeSocketObject",
+            "to_socket_identifier": "Object"
+          },
+          {
+            "from_node": "CullPosition",
+            "to_node": "CullSubtract",
+            "from_socket": "Position",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Position",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullObjectInfo",
+            "to_node": "CullSubtract",
+            "from_socket": "Location",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Location",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector_001"
+          },
+          {
+            "from_node": "CullLength",
+            "to_node": "CullCompare",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "CullCompare",
+            "from_socket": "Cull Distance",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_9",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value_001"
+          },
+          {
+            "from_node": "CullForwardConst",
+            "to_node": "CullRotateFwd",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullObjectInfo",
+            "to_node": "CullRotateFwd",
+            "from_socket": "Rotation",
+            "from_socket_type": "NodeSocketRotation",
+            "from_socket_identifier": "Rotation",
+            "to_socket": "Rotation",
+            "to_socket_type": "NodeSocketRotation",
+            "to_socket_identifier": "Rotation"
+          },
+          {
+            "from_node": "CullRotateFwd",
+            "to_node": "CullDot",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullSubtract",
+            "to_node": "CullDot",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector_001"
+          },
+          {
+            "from_node": "CullCompare",
+            "to_node": "CullAnd",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Boolean",
+            "to_socket_type": "NodeSocketBool",
+            "to_socket_identifier": "Boolean"
+          },
+          {
+            "from_node": "CullInFront",
+            "to_node": "CullAnd",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Boolean",
+            "to_socket_type": "NodeSocketBool",
+            "to_socket_identifier": "Boolean_001"
+          },
+          {
+            "from_node": "CullAnd",
+            "to_node": "Instance on Points",
+            "from_socket": "Boolean",
+            "from_socket_type": "NodeSocketBool",
+            "from_socket_identifier": "Boolean",
+            "to_socket": "Selection",
+            "to_socket_type": "NodeSocketBool",
+            "to_socket_identifier": "Selection"
+          },
+          {
+            "from_node": "CullRotateFwd",
+            "to_node": "CullOffsetVec",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullForwardOffset",
+            "to_node": "CullOffsetVec",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Scale",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Scale"
+          },
+          {
+            "from_node": "CullSubtract",
+            "to_node": "CullShiftedSub",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullOffsetVec",
+            "to_node": "CullShiftedSub",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector_001"
+          },
+          {
+            "from_node": "CullShiftedSub",
+            "to_node": "CullLength",
+            "from_socket": "Vector",
+            "from_socket_type": "NodeSocketVector",
+            "from_socket_identifier": "Vector",
+            "to_socket": "Vector",
+            "to_socket_type": "NodeSocketVector",
+            "to_socket_identifier": "Vector"
+          },
+          {
+            "from_node": "CullDot",
+            "to_node": "CullCosActual",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullLength",
+            "to_node": "CullCosActual",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value_001"
+          },
+          {
+            "from_node": "Group Input",
+            "to_node": "CullDeg2Rad",
+            "from_socket": "Cull Half-Angle",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Socket_10",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullDeg2Rad",
+            "to_node": "CullCosThresh",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullCosActual",
+            "to_node": "CullInFront",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value"
+          },
+          {
+            "from_node": "CullCosThresh",
+            "to_node": "CullInFront",
+            "from_socket": "Value",
+            "from_socket_type": "NodeSocketFloat",
+            "from_socket_identifier": "Value",
+            "to_socket": "Value",
+            "to_socket_type": "NodeSocketFloat",
+            "to_socket_identifier": "Value_001"
+          }
+        ],
+        "name": "Instance Distribution",
+        "tree_type": "GeometryNodeTree"
+      },
+      "type": "GeometryNodeGroup",
+      "label": "",
+      "location_absolute": [
+        -696.9393310546875,
+        59.221561431884766
+      ]
+    }
+  },
+  "links": [
+    {
+      "from_node": "Join Geometry",
+      "to_node": "Group Output",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Socket_1"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Join Geometry",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_0",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_0",
+      "to_socket": "Mesh",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Socket_1"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group",
+      "from_socket": "Density",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_2",
+      "to_socket": "Density Factor",
+      "to_socket_type": "NodeSocketFloatFactor",
+      "to_socket_identifier": "Socket_2"
+    },
+    {
+      "from_node": "Group",
+      "to_node": "Join Geometry",
+      "from_socket": "Instances",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_0",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group.001",
+      "to_node": "Join Geometry",
+      "from_socket": "Instances",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_0",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group.001",
+      "from_socket": "Density 2",
+      "from_socket_type": "NodeSocketFloatFactor",
+      "from_socket_identifier": "Socket_3",
+      "to_socket": "Density Factor",
+      "to_socket_type": "NodeSocketFloatFactor",
+      "to_socket_identifier": "Socket_2"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group.001",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_0",
+      "to_socket": "Mesh",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Socket_1"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group",
+      "from_socket": "Camera",
+      "from_socket_type": "NodeSocketObject",
+      "from_socket_identifier": "Socket_4",
+      "to_socket": "Camera",
+      "to_socket_type": "NodeSocketObject",
+      "to_socket_identifier": "Socket_8"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group",
+      "from_socket": "Cull Distance",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_5",
+      "to_socket": "Cull Distance",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Socket_9"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group.001",
+      "from_socket": "Camera",
+      "from_socket_type": "NodeSocketObject",
+      "from_socket_identifier": "Socket_4",
+      "to_socket": "Camera",
+      "to_socket_type": "NodeSocketObject",
+      "to_socket_identifier": "Socket_8"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group.001",
+      "from_socket": "Cull Distance",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_5",
+      "to_socket": "Cull Distance",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Socket_9"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group",
+      "from_socket": "Cull Half-Angle",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_6",
+      "to_socket": "Cull Half-Angle",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Socket_10"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Group.001",
+      "from_socket": "Cull Half-Angle",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_6",
+      "to_socket": "Cull Half-Angle",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Socket_10"
+    }
+  ],
+  "name": "Geometry Nodes",
+  "tree_type": "GeometryNodeTree",
+  "modifier_values": {
+    "Socket_2": 10.0,
+    "Socket_3": 1.0,
+    "Socket_4": {
+      "__id__": "Object",
+      "name": "Camera"
+    },
+    "Socket_5": 25.490001678466797,
+    "Socket_6": 24.798877716064453
+  },
+  "blender_version": "5.1.2",
+  "export_name": "MyNodes"
+}

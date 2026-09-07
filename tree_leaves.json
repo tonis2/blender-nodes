@@ -1,0 +1,1167 @@
+{
+  "nodes": {
+    "Group Input": {
+      "location": [
+        -481.1199035644531,
+        50.755027770996094
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Input",
+      "input_order": [],
+      "inputs": [],
+      "output_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_0"
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Density",
+          "identifier": "Socket_3",
+          "default": 120.0
+        },
+        {
+          "type": "NodeSocketInt",
+          "name": "Seed",
+          "identifier": "Socket_4",
+          "default": 30
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Min Scale",
+          "identifier": "Socket_5",
+          "default": 0.18000000715255737
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Max Scale",
+          "identifier": "Socket_6",
+          "default": 0.3199999928474426
+        },
+        {
+          "type": "NodeSocketFloatAngle",
+          "name": "Max Tilt",
+          "identifier": "Socket_7",
+          "default": 0.9599310755729675
+        },
+        {
+          "type": "NodeSocketFloatAngle",
+          "name": "Spin",
+          "identifier": "Socket_8",
+          "default": 6.2831854820251465
+        },
+        {
+          "type": "NodeSocketFloatAngle",
+          "name": "Lift",
+          "identifier": "Socket_9",
+          "default": 0.3490658402442932
+        }
+      ],
+      "outputs": [
+        null,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "NodeGroupInput",
+      "label": "",
+      "location_absolute": [
+        -481.1199035644531,
+        50.755027770996094
+      ]
+    },
+    "Group Output": {
+      "location": [
+        1126.7119140625,
+        135.83322143554688
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Output",
+      "input_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_1"
+        }
+      ],
+      "inputs": [
+        null,
+        null
+      ],
+      "output_order": [],
+      "outputs": [],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "is_active_output": true,
+      "type": "NodeGroupOutput",
+      "label": "",
+      "location_absolute": [
+        1126.7119140625,
+        135.83322143554688
+      ]
+    },
+    "Instance on Points": {
+      "location": [
+        417.1583251953125,
+        323.4088439941406
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Instance on Points",
+      "inputs": [
+        null,
+        true,
+        null,
+        false,
+        0,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeInstanceOnPoints",
+      "label": "",
+      "location_absolute": [
+        417.1583251953125,
+        323.4088439941406
+      ]
+    },
+    "Object Info": {
+      "location": [
+        -63.66618728637695,
+        586.4536743164062
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Object Info",
+      "inputs": [
+        null,
+        true
+      ],
+      "outputs": [
+        null,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "transform_space": "ORIGINAL",
+      "type": "GeometryNodeObjectInfo",
+      "label": "",
+      "location_absolute": [
+        -63.66618728637695,
+        586.4536743164062
+      ]
+    },
+    "Random Value": {
+      "location": [
+        -43.250526428222656,
+        -135.90184020996094
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Random Value",
+      "inputs": [
+        0.7999998927116394,
+        2.200000047683716,
+        0,
+        41
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "data_type": "FLOAT",
+      "type": "FunctionNodeRandomValue",
+      "label": "",
+      "location_absolute": [
+        -43.250526428222656,
+        -135.90184020996094
+      ]
+    },
+    "Set Material": {
+      "location": [
+        745.036376953125,
+        235.90704345703125
+      ],
+      "width": 210.9093017578125,
+      "height": 100.0,
+      "name": "Set Material",
+      "inputs": [
+        null,
+        true,
+        null
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeSetMaterial",
+      "label": "",
+      "location_absolute": [
+        745.036376953125,
+        235.90704345703125
+      ]
+    },
+    "Seed Rot": {
+      "location": [
+        -650.0,
+        -250.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Seed Rot",
+      "inputs": [
+        0.5,
+        100.0,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "ADD",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -650.0,
+        -250.0
+      ]
+    },
+    "Seed Scale": {
+      "location": [
+        -650.0,
+        -450.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Seed Scale",
+      "inputs": [
+        0.5,
+        200.0,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "ADD",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -650.0,
+        -450.0
+      ]
+    },
+    "Distribute Points on Faces": {
+      "location": [
+        -900.0,
+        300.0
+      ],
+      "width": 180.0,
+      "height": 100.0,
+      "name": "Distribute Points on Faces",
+      "inputs": [
+        null,
+        true,
+        0.05999999865889549,
+        10.0,
+        120.0,
+        1.0,
+        0
+      ],
+      "outputs": [
+        null,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "distribute_method": "RANDOM",
+      "use_legacy_normal": false,
+      "type": "GeometryNodeDistributePointsOnFaces",
+      "label": "",
+      "location_absolute": [
+        -900.0,
+        300.0
+      ]
+    },
+    "Rot Random": {
+      "location": [
+        -650.0,
+        -50.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Rot Random",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        0,
+        0
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "data_type": "FLOAT_VECTOR",
+      "type": "FunctionNodeRandomValue",
+      "label": "",
+      "location_absolute": [
+        -650.0,
+        -50.0
+      ]
+    },
+    "Rot Split": {
+      "location": [
+        -470.0,
+        -50.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Rot Split",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "outputs": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "ShaderNodeSeparateXYZ",
+      "label": "",
+      "location_absolute": [
+        -470.0,
+        -50.0
+      ]
+    },
+    "Spin Mul": {
+      "location": [
+        -300.0,
+        80.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Spin Mul",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "MULTIPLY",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -300.0,
+        80.0
+      ]
+    },
+    "Tilt Range": {
+      "location": [
+        -300.0,
+        -220.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Tilt Range",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "MULTIPLY",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -300.0,
+        -220.0
+      ]
+    },
+    "Tilt Add Lift": {
+      "location": [
+        -130.0,
+        -220.0
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Tilt Add Lift",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "ADD",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -130.0,
+        -220.0
+      ]
+    },
+    "Spin Euler": {
+      "location": [
+        -218.0979461669922,
+        0.5572967529296875
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Spin Euler",
+      "inputs": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "ShaderNodeCombineXYZ",
+      "label": "",
+      "location_absolute": [
+        -218.0979461669922,
+        0.5572967529296875
+      ]
+    },
+    "Tilt Euler": {
+      "location": [
+        -48.09794616699219,
+        -299.44268798828125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Tilt Euler",
+      "inputs": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "ShaderNodeCombineXYZ",
+      "label": "",
+      "location_absolute": [
+        -48.09794616699219,
+        -299.44268798828125
+      ]
+    },
+    "Spin Rot": {
+      "location": [
+        -48.09794616699219,
+        0.5572967529296875
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Spin Rot",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "FunctionNodeEulerToRotation",
+      "label": "",
+      "location_absolute": [
+        -48.09794616699219,
+        0.5572967529296875
+      ]
+    },
+    "Tilt Rot": {
+      "location": [
+        121.90205383300781,
+        -299.44268798828125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Tilt Rot",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "FunctionNodeEulerToRotation",
+      "label": "",
+      "location_absolute": [
+        121.90205383300781,
+        -299.44268798828125
+      ]
+    },
+    "Apply Spin": {
+      "location": [
+        121.90205383300781,
+        120.55729675292969
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Apply Spin",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "rotation_space": "LOCAL",
+      "type": "FunctionNodeRotateRotation",
+      "label": "",
+      "location_absolute": [
+        121.90205383300781,
+        120.55729675292969
+      ]
+    },
+    "Apply Tilt": {
+      "location": [
+        311.90203857421875,
+        0.5572967529296875
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Apply Tilt",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "rotation_space": "LOCAL",
+      "type": "FunctionNodeRotateRotation",
+      "label": "",
+      "location_absolute": [
+        311.90203857421875,
+        0.5572967529296875
+      ]
+    }
+  },
+  "links": [
+    {
+      "from_node": "Set Material",
+      "to_node": "Group Output",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Socket_1"
+    },
+    {
+      "from_node": "Object Info",
+      "to_node": "Instance on Points",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Instance",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Instance"
+    },
+    {
+      "from_node": "Random Value",
+      "to_node": "Instance on Points",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Scale",
+      "to_socket_type": "NodeSocketVectorXYZ",
+      "to_socket_identifier": "Scale"
+    },
+    {
+      "from_node": "Instance on Points",
+      "to_node": "Set Material",
+      "from_socket": "Instances",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Instances",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Seed Rot",
+      "from_socket": "Seed",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_4",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Seed Scale",
+      "from_socket": "Seed",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_4",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Random Value",
+      "from_socket": "Min Scale",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_5",
+      "to_socket": "Min",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Min"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Random Value",
+      "from_socket": "Max Scale",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_6",
+      "to_socket": "Max",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Max"
+    },
+    {
+      "from_node": "Seed Scale",
+      "to_node": "Random Value",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Seed",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Seed"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Distribute Points on Faces",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_0",
+      "to_socket": "Mesh",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Mesh"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Distribute Points on Faces",
+      "from_socket": "Density",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_3",
+      "to_socket": "Density Max",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Density Max"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Distribute Points on Faces",
+      "from_socket": "Seed",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_4",
+      "to_socket": "Seed",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Seed"
+    },
+    {
+      "from_node": "Distribute Points on Faces",
+      "to_node": "Instance on Points",
+      "from_socket": "Points",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Points",
+      "to_socket": "Points",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Points"
+    },
+    {
+      "from_node": "Seed Rot",
+      "to_node": "Rot Random",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Seed",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Seed"
+    },
+    {
+      "from_node": "Rot Random",
+      "to_node": "Rot Split",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Value",
+      "to_socket": "Vector",
+      "to_socket_type": "NodeSocketVector",
+      "to_socket_identifier": "Vector"
+    },
+    {
+      "from_node": "Rot Split",
+      "to_node": "Spin Mul",
+      "from_socket": "X",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "X",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Spin Mul",
+      "from_socket": "Spin",
+      "from_socket_type": "NodeSocketFloatAngle",
+      "from_socket_identifier": "Socket_8",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Tilt Range",
+      "from_socket": "Max Tilt",
+      "from_socket_type": "NodeSocketFloatAngle",
+      "from_socket_identifier": "Socket_7",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Tilt Range",
+      "to_node": "Tilt Add Lift",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Tilt Add Lift",
+      "from_socket": "Lift",
+      "from_socket_type": "NodeSocketFloatAngle",
+      "from_socket_identifier": "Socket_9",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Spin Mul",
+      "to_node": "Spin Euler",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Z",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Z"
+    },
+    {
+      "from_node": "Tilt Add Lift",
+      "to_node": "Tilt Euler",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "X",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "X"
+    },
+    {
+      "from_node": "Spin Euler",
+      "to_node": "Spin Rot",
+      "from_socket": "Vector",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Vector",
+      "to_socket": "Euler",
+      "to_socket_type": "NodeSocketVectorEuler",
+      "to_socket_identifier": "Euler"
+    },
+    {
+      "from_node": "Tilt Euler",
+      "to_node": "Tilt Rot",
+      "from_socket": "Vector",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Vector",
+      "to_socket": "Euler",
+      "to_socket_type": "NodeSocketVectorEuler",
+      "to_socket_identifier": "Euler"
+    },
+    {
+      "from_node": "Distribute Points on Faces",
+      "to_node": "Apply Spin",
+      "from_socket": "Rotation",
+      "from_socket_type": "NodeSocketRotation",
+      "from_socket_identifier": "Rotation",
+      "to_socket": "Rotation",
+      "to_socket_type": "NodeSocketRotation",
+      "to_socket_identifier": "Rotation"
+    },
+    {
+      "from_node": "Spin Rot",
+      "to_node": "Apply Spin",
+      "from_socket": "Rotation",
+      "from_socket_type": "NodeSocketRotation",
+      "from_socket_identifier": "Rotation",
+      "to_socket": "Rotate By",
+      "to_socket_type": "NodeSocketRotation",
+      "to_socket_identifier": "Rotate By"
+    },
+    {
+      "from_node": "Apply Spin",
+      "to_node": "Apply Tilt",
+      "from_socket": "Rotation",
+      "from_socket_type": "NodeSocketRotation",
+      "from_socket_identifier": "Rotation",
+      "to_socket": "Rotation",
+      "to_socket_type": "NodeSocketRotation",
+      "to_socket_identifier": "Rotation"
+    },
+    {
+      "from_node": "Tilt Rot",
+      "to_node": "Apply Tilt",
+      "from_socket": "Rotation",
+      "from_socket_type": "NodeSocketRotation",
+      "from_socket_identifier": "Rotation",
+      "to_socket": "Rotate By",
+      "to_socket_type": "NodeSocketRotation",
+      "to_socket_identifier": "Rotate By"
+    },
+    {
+      "from_node": "Apply Tilt",
+      "to_node": "Instance on Points",
+      "from_socket": "Rotation",
+      "from_socket_type": "NodeSocketRotation",
+      "from_socket_identifier": "Rotation",
+      "to_socket": "Rotation",
+      "to_socket_type": "NodeSocketRotation",
+      "to_socket_identifier": "Rotation"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Distribute Points on Faces",
+      "from_socket": "Density",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_3",
+      "to_socket": "Density",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Density"
+    },
+    {
+      "from_node": "Rot Split",
+      "to_node": "Tilt Range",
+      "from_socket": "Y",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Y",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    }
+  ],
+  "name": "Geometry Nodes.001",
+  "tree_type": "GeometryNodeTree",
+  "modifier_values": {
+    "Socket_3": 120.0,
+    "Socket_4": 30,
+    "Socket_5": 0.18000000715255737,
+    "Socket_6": 0.3199999928474426,
+    "Socket_7": 0.9599310755729675,
+    "Socket_8": 6.2831854820251465,
+    "Socket_9": 0.3490658402442932
+  },
+  "blender_version": "5.2.0",
+  "export_name": "MyNodes"
+}

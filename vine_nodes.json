@@ -1,0 +1,1100 @@
+{
+  "nodes": {
+    "Group Input": {
+      "location": [
+        -1386.6883544921875,
+        72.07904052734375
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Input",
+      "input_order": [],
+      "inputs": [],
+      "output_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_2"
+        },
+        {
+          "type": "NodeSocketCollection",
+          "name": "Leaf Collection",
+          "identifier": "Socket_3"
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Leaf Density",
+          "identifier": "Socket_4",
+          "default": 6.519999980926514
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Stem Radius",
+          "identifier": "Socket_5",
+          "default": -0.019999999552965164
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Leaf Scale",
+          "identifier": "Socket_6",
+          "default": 5.940000057220459
+        },
+        {
+          "type": "NodeSocketFloat",
+          "name": "Scale Random",
+          "identifier": "Socket_7",
+          "default": 0.6500000357627869
+        },
+        {
+          "type": "NodeSocketInt",
+          "name": "Seed",
+          "identifier": "Socket_8",
+          "default": 22
+        },
+        {
+          "type": "NodeSocketInt",
+          "name": "Resample Count",
+          "identifier": "Socket_9",
+          "default": 6
+        }
+      ],
+      "outputs": [
+        null,
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0,
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "NodeGroupInput",
+      "label": "",
+      "location_absolute": [
+        -1386.6883544921875,
+        72.07904052734375
+      ]
+    },
+    "Group Output": {
+      "location": [
+        1268.555419921875,
+        -16.27178955078125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Group Output",
+      "input_order": [
+        {
+          "type": "NodeSocketGeometry",
+          "name": "Geometry",
+          "identifier": "Socket_10"
+        }
+      ],
+      "inputs": [
+        null,
+        null
+      ],
+      "output_order": [],
+      "outputs": [],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "is_active_output": true,
+      "type": "NodeGroupOutput",
+      "label": "",
+      "location_absolute": [
+        1268.555419921875,
+        -16.27178955078125
+      ]
+    },
+    "Curve Circle": {
+      "location": [
+        -731.4445190429688,
+        333.72821044921875
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Curve Circle",
+      "inputs": [
+        3,
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        1.0
+      ],
+      "outputs": [
+        null,
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "mode": "RADIUS",
+      "type": "GeometryNodeCurvePrimitiveCircle",
+      "label": "",
+      "location_absolute": [
+        -731.4445190429688,
+        333.72821044921875
+      ]
+    },
+    "Curve to Mesh": {
+      "location": [
+        -431.44451904296875,
+        233.72821044921875
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Curve to Mesh",
+      "inputs": [
+        null,
+        null,
+        1.0,
+        false
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeCurveToMesh",
+      "label": "",
+      "location_absolute": [
+        -431.44451904296875,
+        233.72821044921875
+      ]
+    },
+    "Set Material": {
+      "location": [
+        -131.44451904296875,
+        233.72821044921875
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Set Material",
+      "inputs": [
+        null,
+        true,
+        null
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeSetMaterial",
+      "label": "",
+      "location_absolute": [
+        -131.44451904296875,
+        233.72821044921875
+      ]
+    },
+    "Curve to Points": {
+      "location": [
+        -431.44451904296875,
+        -116.27178955078125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Curve to Points",
+      "inputs": [
+        null,
+        10,
+        0.10000000149011612
+      ],
+      "outputs": [
+        null,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "mode": "LENGTH",
+      "type": "GeometryNodeCurveToPoints",
+      "label": "",
+      "location_absolute": [
+        -431.44451904296875,
+        -116.27178955078125
+      ]
+    },
+    "Math": {
+      "location": [
+        -731.4445190429688,
+        -166.27178955078125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math",
+      "inputs": [
+        1.0,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "DIVIDE",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -731.4445190429688,
+        -166.27178955078125
+      ]
+    },
+    "Random Value": {
+      "location": [
+        -149.71279907226562,
+        -233.99819946289062
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Random Value",
+      "inputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        0,
+        0
+      ],
+      "outputs": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "data_type": "FLOAT_VECTOR",
+      "type": "FunctionNodeRandomValue",
+      "label": "",
+      "location_absolute": [
+        -149.71279907226562,
+        -233.99819946289062
+      ]
+    },
+    "Random Value.001": {
+      "location": [
+        -131.44451904296875,
+        -566.2717895507812
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Random Value.001",
+      "inputs": [
+        0.0,
+        1.0,
+        0,
+        0
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "data_type": "FLOAT",
+      "type": "FunctionNodeRandomValue",
+      "label": "",
+      "location_absolute": [
+        -131.44451904296875,
+        -566.2717895507812
+      ]
+    },
+    "Math.001": {
+      "location": [
+        -531.4445190429688,
+        -666.2717895507812
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math.001",
+      "inputs": [
+        1.0,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "SUBTRACT",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -531.4445190429688,
+        -666.2717895507812
+      ]
+    },
+    "Math.002": {
+      "location": [
+        -331.44451904296875,
+        -666.2717895507812
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math.002",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "MULTIPLY",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        -331.44451904296875,
+        -666.2717895507812
+      ]
+    },
+    "Instance on Points": {
+      "location": [
+        218.5554962158203,
+        -216.27178955078125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Instance on Points",
+      "inputs": [
+        null,
+        true,
+        null,
+        true,
+        0,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeInstanceOnPoints",
+      "label": "",
+      "location_absolute": [
+        218.5554962158203,
+        -216.27178955078125
+      ]
+    },
+    "Rotate Instances": {
+      "location": [
+        496.73529052734375,
+        -236.43048095703125
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Rotate Instances",
+      "inputs": [
+        null,
+        true,
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        true
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeRotateInstances",
+      "label": "",
+      "location_absolute": [
+        496.73529052734375,
+        -236.43048095703125
+      ]
+    },
+    "Join Geometry": {
+      "location": [
+        828.9849853515625,
+        -8.215263366699219
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Join Geometry",
+      "inputs": [
+        null
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "type": "GeometryNodeJoinGeometry",
+      "label": "",
+      "location_absolute": [
+        828.9849853515625,
+        -8.215263366699219
+      ]
+    },
+    "Collection Info": {
+      "location": [
+        -451.50396728515625,
+        -342.18951416015625
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Collection Info",
+      "inputs": [
+        null,
+        true,
+        true
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "transform_space": "RELATIVE",
+      "type": "GeometryNodeCollectionInfo",
+      "label": "",
+      "location_absolute": [
+        -451.50396728515625,
+        -342.18951416015625
+      ]
+    },
+    "Random Value.002": {
+      "location": [
+        -174.4488525390625,
+        54.139503479003906
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Random Value.002",
+      "inputs": [
+        0,
+        115,
+        0,
+        0
+      ],
+      "outputs": [
+        0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "data_type": "INT",
+      "type": "FunctionNodeRandomValue",
+      "label": "",
+      "location_absolute": [
+        -174.4488525390625,
+        54.139503479003906
+      ]
+    },
+    "Domain Size": {
+      "location": [
+        -131.44451904296875,
+        -766.2717895507812
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Domain Size",
+      "inputs": [
+        null
+      ],
+      "outputs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "component": "INSTANCES",
+      "type": "GeometryNodeAttributeDomainSize",
+      "label": "",
+      "location_absolute": [
+        -131.44451904296875,
+        -766.2717895507812
+      ]
+    },
+    "Math.003": {
+      "location": [
+        61.945526123046875,
+        110.10720825195312
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Math.003",
+      "inputs": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "outputs": [
+        0.0
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "operation": "MODULO",
+      "use_clamp": false,
+      "type": "ShaderNodeMath",
+      "label": "",
+      "location_absolute": [
+        61.945526123046875,
+        110.10720825195312
+      ]
+    },
+    "Resample Curve": {
+      "location": [
+        -931.4445190429688,
+        83.72821044921875
+      ],
+      "width": 140.0,
+      "height": 100.0,
+      "name": "Resample Curve",
+      "inputs": [
+        null,
+        true,
+        "Count",
+        10,
+        0.10000000149011612
+      ],
+      "outputs": [
+        null
+      ],
+      "use_custom_color": false,
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "show_options": true,
+      "show_preview": false,
+      "mute": false,
+      "show_texture": false,
+      "keep_last_segment": true,
+      "type": "GeometryNodeResampleCurve",
+      "label": "Resample Curve",
+      "location_absolute": [
+        -931.4445190429688,
+        83.72821044921875
+      ]
+    }
+  },
+  "links": [
+    {
+      "from_node": "Curve Circle",
+      "to_node": "Curve to Mesh",
+      "from_socket": "Curve",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Curve",
+      "to_socket": "Profile Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Profile Curve"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Curve Circle",
+      "from_socket": "Stem Radius",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_5",
+      "to_socket": "Radius",
+      "to_socket_type": "NodeSocketFloatDistance",
+      "to_socket_identifier": "Radius"
+    },
+    {
+      "from_node": "Curve to Mesh",
+      "to_node": "Set Material",
+      "from_socket": "Mesh",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Mesh",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Set Material",
+      "to_node": "Join Geometry",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Math",
+      "from_socket": "Leaf Density",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_4",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Math",
+      "to_node": "Curve to Points",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Length",
+      "to_socket_type": "NodeSocketFloatDistance",
+      "to_socket_identifier": "Length"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Math.001",
+      "from_socket": "Scale Random",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_7",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Math.002",
+      "from_socket": "Leaf Scale",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_6",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Math.001",
+      "to_node": "Math.002",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Math.002",
+      "to_node": "Random Value.001",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Min",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Min"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Random Value.001",
+      "from_socket": "Leaf Scale",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Socket_6",
+      "to_socket": "Max",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Max"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Random Value.001",
+      "from_socket": "Seed",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_8",
+      "to_socket": "Seed",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Seed"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Random Value",
+      "from_socket": "Seed",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_8",
+      "to_socket": "Seed",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Seed"
+    },
+    {
+      "from_node": "Curve to Points",
+      "to_node": "Instance on Points",
+      "from_socket": "Points",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Points",
+      "to_socket": "Points",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Points"
+    },
+    {
+      "from_node": "Random Value.001",
+      "to_node": "Instance on Points",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Scale",
+      "to_socket_type": "NodeSocketVectorXYZ",
+      "to_socket_identifier": "Scale"
+    },
+    {
+      "from_node": "Instance on Points",
+      "to_node": "Rotate Instances",
+      "from_socket": "Instances",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Instances",
+      "to_socket": "Instances",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Instances"
+    },
+    {
+      "from_node": "Random Value",
+      "to_node": "Rotate Instances",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketVector",
+      "from_socket_identifier": "Value",
+      "to_socket": "Rotation",
+      "to_socket_type": "NodeSocketRotation",
+      "to_socket_identifier": "Rotation"
+    },
+    {
+      "from_node": "Rotate Instances",
+      "to_node": "Join Geometry",
+      "from_socket": "Instances",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Instances",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Collection Info",
+      "from_socket": "Leaf Collection",
+      "from_socket_type": "NodeSocketCollection",
+      "from_socket_identifier": "Socket_3",
+      "to_socket": "Collection",
+      "to_socket_type": "NodeSocketCollection",
+      "to_socket_identifier": "Collection"
+    },
+    {
+      "from_node": "Collection Info",
+      "to_node": "Instance on Points",
+      "from_socket": "Instances",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Instances",
+      "to_socket": "Instance",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Instance"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Random Value.002",
+      "from_socket": "Seed",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_8",
+      "to_socket": "Seed",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Seed"
+    },
+    {
+      "from_node": "Collection Info",
+      "to_node": "Domain Size",
+      "from_socket": "Instances",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Instances",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Geometry"
+    },
+    {
+      "from_node": "Random Value.002",
+      "to_node": "Math.003",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Value",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value"
+    },
+    {
+      "from_node": "Domain Size",
+      "to_node": "Math.003",
+      "from_socket": "Instance Count",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Instance Count",
+      "to_socket": "Value",
+      "to_socket_type": "NodeSocketFloat",
+      "to_socket_identifier": "Value_001"
+    },
+    {
+      "from_node": "Math.003",
+      "to_node": "Instance on Points",
+      "from_socket": "Value",
+      "from_socket_type": "NodeSocketFloat",
+      "from_socket_identifier": "Value",
+      "to_socket": "Instance Index",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Instance Index"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Resample Curve",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Socket_2",
+      "to_socket": "Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Curve"
+    },
+    {
+      "from_node": "Group Input",
+      "to_node": "Resample Curve",
+      "from_socket": "Resample Count",
+      "from_socket_type": "NodeSocketInt",
+      "from_socket_identifier": "Socket_9",
+      "to_socket": "Count",
+      "to_socket_type": "NodeSocketInt",
+      "to_socket_identifier": "Count"
+    },
+    {
+      "from_node": "Resample Curve",
+      "to_node": "Curve to Mesh",
+      "from_socket": "Curve",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Curve",
+      "to_socket": "Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Curve"
+    },
+    {
+      "from_node": "Resample Curve",
+      "to_node": "Curve to Points",
+      "from_socket": "Curve",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Curve",
+      "to_socket": "Curve",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Curve"
+    },
+    {
+      "from_node": "Join Geometry",
+      "to_node": "Group Output",
+      "from_socket": "Geometry",
+      "from_socket_type": "NodeSocketGeometry",
+      "from_socket_identifier": "Geometry",
+      "to_socket": "Geometry",
+      "to_socket_type": "NodeSocketGeometry",
+      "to_socket_identifier": "Socket_10"
+    }
+  ],
+  "name": "Imported Nodes.003",
+  "tree_type": "GeometryNodeTree",
+  "modifier_values": {
+    "Socket_3": {
+      "__id__": "Collection",
+      "name": "weed_plant_02_LOD0"
+    },
+    "Socket_4": 6.519999980926514,
+    "Socket_5": -0.019999999552965164,
+    "Socket_6": 5.940000057220459,
+    "Socket_7": 0.6500000357627869,
+    "Socket_8": 22,
+    "Socket_9": 6
+  },
+  "blender_version": "5.2.0",
+  "export_name": "Vines"
+}
